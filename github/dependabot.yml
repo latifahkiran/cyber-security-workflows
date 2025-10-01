@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # karena kita pakai Python
+    directory: "/"           # lokasi file requirements.txt nanti
+    schedule:
+      interval: "weekly"
