@@ -3,7 +3,7 @@ import sqlite3
 
 app = Flask(__name__)
 
-# 🚨 Celah 1: Flask debug mode
+# coba alert flask debug
 app.config["DEBUG"] = True  
 
 @app.route("/login", methods=["POST"])
