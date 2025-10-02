@@ -1,9 +1,4 @@
 # demo_security_suite.py
-# DEMO: beberapa kerentanan keamanan dalam 1 file (UNTUK EDUKASI)
-# ----------------------------------------------
-# WARNING: Jangan pernah pakai pola ini di kode produksi.
-# Setelah demo: hapus file ini dari repo dan jangan commit credential nyata.
-# ----------------------------------------------
 
 from flask import Flask, request, redirect, send_file
 import sqlite3
